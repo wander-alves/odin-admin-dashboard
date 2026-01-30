@@ -64,8 +64,9 @@ nav {
   font-weight: 700;
 }
 
-.current-item .nav-item>img {
+.current-item .nav-item>img.icon {
   width: 3.6rem;
+  height: 3.6rem;
 }
 
 .nav-item {
@@ -78,6 +79,7 @@ nav {
   font-weight: 600;
 }
 
-.nav-item>img {
+img.icon {
   width: 2.4rem;
+  height: 2.4rem;
 }
