@@ -1,0 +1,83 @@
+:root {
+  font-size: 62.5%;
+
+  --clr-white: #FFFFFF;
+  --clr-gray-100: #E2E8F0;
+  --clr-gray-500: #636363;
+  --clr-gray-600: #333333;
+  --clr-gray-700: #000000;
+  --clr-blue-500: #1992D4;
+  --clr-yellow-500: #F0B429;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+button {
+  border: none;
+  background-color: transparent;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+.container {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+nav {
+  padding: 2.4rem;
+  width: 30.4rem;
+  background-color: var(--clr-blue-500);
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+}
+
+.current-item .nav-item {
+  gap: 2rem;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.current-item .nav-item>img {
+  width: 3.6rem;
+}
+
+.nav-item {
+  color: var(--clr-white);
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.nav-item>img {
+  width: 2.4rem;
+}
