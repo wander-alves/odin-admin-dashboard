@@ -1,9 +1,12 @@
-# Project Title
+# Odin Admin Dashboard
 
 ## About
 
+This project was developed to finish Intermediate HTML and CSS Course at Odin's Project, where we learned about Flex and Grid in CSS and how to use it correctly.
+
 Project Link: [Odin Project - Admin Dashboard](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard)
-...
+
+---
 
 ## Technologies
 
@@ -11,7 +14,7 @@ Project Link: [Odin Project - Admin Dashboard](https://www.theodinproject.com/le
 - CSS (Flexbox e Grid)
 - Material Icons
 
-...
+---
 
 ## Layout
 
