@@ -106,6 +106,7 @@ header>form#search-form .input-wrapper input {
   height: 3.2rem;
   background-color: var(--clr-gray-100);
   border-radius: 999px;
+  padding-inline: 1.2rem;
 }
 
 .profile-img {
@@ -244,7 +245,7 @@ aside {
 
 aside .sidebar-list {
   min-width: 27.8rem;
-  padding-block: 3.2rem;
+  padding-block: 3.2rem 2.8rem;
   display: flex;
   flex-direction: column;
 
@@ -284,4 +285,25 @@ aside .sidebar-list .announcement-item+.announcement-item::before {
   box-orient: vertical;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+aside .feed-item:last-child .sidebar-list {
+  padding-block: 2.2rem 3rem;
+}
+
+.sidebar-list .trending-item {
+  padding-inline: 2.4rem;
+
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+  margin-block: 1.2rem;
+}
+
+.sidebar-list .trending-item {
+  font-size: 1.4rem;
+}
+
+.sidebar-list .trending-item p {
+  color: var(--clr-gray-500);
 }
